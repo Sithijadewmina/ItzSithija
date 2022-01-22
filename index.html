@@ -2,6 +2,11 @@
 <!-- ReDesigned By Me (Brh_0x) -->
 <!-- Originally By CodingNepal -->
 <html lang="en">
+<div class="orbit-spinner">
+  <div class="orbit"></div>
+  <div class="orbit"></div>
+  <div class="orbit"></div>
+</div>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,31 +21,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
 
 </head>
-<template>
-  <div id="app">
-     <atom-spinner
-          :animation-duration="1000"
-          :size="60"
-          :color="'#ff1d5e'"
-     />
-  </div>
-</template>
-
-<script>
-  // To use minified css and js files instead of .vue single file components:
-  // import 'epic-spinners/dist/lib/epic-spinners.min.css'
-  // import {AtomSpinner} from 'epic-spinners/dist/lib/epic-spinners.min.js'
-  
-  // To get tree shaking from webpack (won't import all spinners when you only need one)
-  // import AtomSpinner from 'epic-spinners/src/components/lib/AtomSpinner'
-  
-  import {AtomSpinner} from 'epic-spinners'
-  export default {
-    components: {
-      AtomSpinner
-    }
-  }
-</script>
 <body>
     <div class="scroll-up-btn">
         <i class="fas fa-angle-up"></i>
